@@ -48,7 +48,7 @@ const Navbar = () =>{
                 ${showBackground ? 'bg-zinc-900 bg-opacity-90':''}
                 `}>
                 {/* Navigaiton Bar Menu */}
-                <img className="h-4 lg:h-7" src="/images/logo.png"/>
+                <img className="h-4 lg:h-7" src="/images/logo.png" alt="Logo"/>
                 <div className="flex-row ml-8 gap-7 hidden lg:flex">
                     <NavbarItem label={"Home"}/>
                     <NavbarItem label={"Series"}/>
